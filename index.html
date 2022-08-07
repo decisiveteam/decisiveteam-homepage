@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <title>DecisiveTeam</title>
+  <meta name="description" content="fast group decision-making">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <style>
+    html {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1 {
+      font-weight: 700;
+    }
+    .icon-block {
+      padding: 0 15px;
+    }
+    .icon-block .material-icons {
+      font-size: inherit;
+    }
+    .urbanist-font {
+      font-family: 'Urbanist';
+    }
+  </style>
+
+
+</head>
+
+
+  <body>
+
+    <main class="page-content" aria-label="Content" style="min-height:100vh;">
+      <div class="wrapper">
+        <div class="section no-pad-bot" id="index-banner">
+          <div class="container" style="margin-top:10vh; min-height:100vh">
+            <br>
+            <div id="rag-title" class="row center">
+              <img src="logo.svg" style="width:240px"/>
+              <h1 style="overflow: hidden; font-size: 4em; margin-bottom: 0;" class="header center black-text urbanist-font">
+                DecisiveTeam
+              </h1>
+              <h5 class="header col s12 light"><strong>fast</strong> group decision-making</h5>
+            </div>
+            <div class="row center" style="margin-top:60px;margin-bottom:60px;height:100px;">
+              <h4 class="header col s12 light"><span style="white-space: nowrap;">Ask a question.</span> <span style="white-space: nowrap;">Gather options.</span> <span style="white-space: nowrap;">Make a decision.</span></h4>
+            </div>
+            <div class="row center">
+              <div id="waitlist-button" style="width: 300px;" class="center btn-large waves-effect waves-light black">Join the waitlist</div>
+              <br/>
+              <div id="substack-iframe-container" style="height: 0; overflow: hidden; margin-top: 20px; transition: height 400ms ease-in-out;">
+                <iframe src="https://decisiveteam.substack.com/embed" width="480" height="320" style="background:white;" frameborder="0" scrolling="no"></iframe>
+              </div>
+              <script>
+                var waitlistButton = document.getElementById('waitlist-button');
+                waitlistButton.addEventListener('click', function () {
+                  var substackIFrameContainer = document.getElementById('substack-iframe-container');
+                  substackIFrameContainer.style.height = '320px';
+                });
+              </script>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row center section" style="margin-top:60px;margin-bottom:60px;">
+            <div class="col s12 m4 offset-m2 left-align flow-text">
+              <div class="center"><strong>Problem:</strong></div>
+              <br/>
+              Communication overhead is costly.<br/>
+              Slow turnaround time is costly.<br/>
+              Bad decisions are costly.<br/>
+            </div>
+            <div class="col s12 m4 left-align flow-text">
+              <div class="center"><strong>Solution:</strong></div>
+              <br/>
+              <strong>DecisiveTeam</strong> cuts through the noise and empowers your business to converge on optimal decisions fast.
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row center" style="margin-top:60px;margin-bottom:60px;">
+            <h2 id="how-it-works">How It Works</h2>
+            <div class="row center flow-text">The decision-making process has 3 steps:</div>
+            <h4 class="col s12 m6 offset-m3 left-align">1. Ask a question.</h4>
+            <div class="row">
+              <div class="col s12 m6 offset-m3 left-align flow-text">Every decision starts with a question. What is our current priority? Who will lead this project? When will we launch?</div>
+              <div class="col s12 m6 offset-m3 left-align flow-text"><strong>DecisiveTeam</strong> empowers team members to initiate group decisions simply by asking a clear question.</div>
+            </div>
+            <h4 class="col s12 m6 offset-m3 left-align">2. Gather options.</h4>
+            <div class="row">
+              <div class="col s12 m6 offset-m3 left-align flow-text">Your decisions can only be as good as your best options. Brainstorming possibilities is a collaborative process.</div>
+              <div class="col s12 m6 offset-m3 left-align flow-text"><strong>DecisiveTeam</strong> raises the collective intelligence of the group as a whole by giving everyone the power to propose possible solutions.</div>
+            </div>
+            <h4 class="col s12 m6 offset-m3 left-align">3. Make a decision.</h4>
+            <div class="row">
+              <div class="col s12 m6 offset-m3 left-align flow-text">Arriving at consensus can be difficult without a clear process. Too much back-and-forth communication slows things down, but not enough communication can lead to sub-optimal decisions.</div>
+              <div class="col s12 m6 offset-m3 left-align flow-text"><strong>DecisiveTeam</strong> solves this problem with <a href="https://electionscience.org/library/approval-voting/" target="_blank">approval voting</a>. Through approval voting, you and your team triangulate on optimal decisions fast.</div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row center section" style="margin-top:60px;margin-bottom:60px;">
+            <h2 id="benefits">Benefits</h2>
+            <div class="row center flow-text">Fewer meetings.</div>
+            <div class="row center flow-text">Less confusion.</div>
+            <div class="row center flow-text">Faster turnaround.</div>
+            <div class="row center flow-text">Wiser decisions.</div>
+            <div class="row center flow-text">Better morale.</div>
+          </div>
+          <div class="divider"></div>
+          <div class="row center" style="margin-top:60px;margin-bottom:60px;">
+            <h2 id="automation">Human-in-the-loop Automation</h2>
+            <div class="row">
+              <img src="bot-human-complement.png" style="max-width: 50%; width: 200px;"/>
+            </div>
+            <div class="row">
+              <div class="col s12 m6 offset-m3 left-align flow-text">Automation is great, but human judgement is often required to keep things running safely and reliably. The <strong>DecisiveTeam</strong> API allows automated systems to seamlessly handoff decision-making authority to human decision-makers, and then recieve the results via webhooks when decisions are finalized, enabling powerful hybrid systems.</div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row center" style="margin-top:60px;margin-bottom:60px;">
+            <div class="row">
+              <iframe src="https://decisiveteam.substack.com/embed" width="480" height="320" style="border: none; background:white;" frameborder="0" scrolling="no"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="page-footer grey darken-4" style="padding-bottom: 50px;">
+
+  <div class="container" style="font-size:0.8em;">
+
+Legal stuff:<br/>
+This site uses cookies for functional purposes only.<br/>
+  </div>
+</footer>
+
+<script type="text/javascript" src="script.js"></script>
+  </body>
+
+</html>
