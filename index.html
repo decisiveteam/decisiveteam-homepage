@@ -26,6 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -36,6 +37,9 @@
     h1 {
       font-weight: 700;
     }
+    h1, h2, h3, h4 {
+      font-family: 'Source Code Pro', monospace;
+    }
     .icon-block {
       padding: 0 15px;
     }
@@ -44,6 +48,10 @@
     }
     .urbanist-font {
       font-family: 'Urbanist';
+      font-weight: normal;
+    }
+    .source-code-pro-font {
+      font-family: 'Source Code Pro', monospace;
     }
   </style>
 
@@ -60,13 +68,13 @@
             <br>
             <div id="rag-title" class="row center">
               <img src="logo.svg" style="width:240px"/>
-              <h1 style="overflow: hidden; font-size: 4em; margin-bottom: 0;" class="header center black-text urbanist-font">
+              <h1 style="overflow: hidden; font-size: 4em; margin-bottom: 0;" class="header center black-text source-code-pro-font">
                 Decisive Team
               </h1>
               <h5 class="header col s12 light"><strong>fast</strong> group decision-making</h5>
             </div>
             <div class="row center" style="margin-top:60px;margin-bottom:60px;height:100px;">
-              <h4 class="header col s12 light"><span style="white-space: nowrap;">Ask a question.</span> <span style="white-space: nowrap;">Gather options.</span> <span style="white-space: nowrap;">Make a decision.</span></h4>
+              <h4 class="header col s12 light" style="font-family: 'Roboto', sans-serif;"><span style="white-space: nowrap;">Ask a question.</span> <span style="white-space: nowrap;">Gather options.</span> <span style="white-space: nowrap;">Make a decision.</span></h4>
             </div>
             <div class="row center">
               <div id="waitlist-button" style="width: 300px;" class="center btn-large waves-effect waves-light black">Join the waitlist</div>
