@@ -77,18 +77,9 @@
               <h4 class="header col s12 light" style="font-family: 'Roboto', sans-serif;"><span style="white-space: nowrap;">Ask a question.</span> <span style="white-space: nowrap;">Gather options.</span> <span style="white-space: nowrap;">Make a decision.</span></h4>
             </div>
             <div class="row center">
-              <div id="waitlist-button" style="width: 300px;" class="center btn-large waves-effect waves-light black">Join the waitlist</div>
-              <br/>
-              <div id="substack-iframe-container" style="height: 0; overflow: hidden; margin-top: 20px; transition: height 400ms ease-in-out;">
-                <iframe src="https://decisiveteam.substack.com/embed" width="360" height="320" style="background:white;" frameborder="0" scrolling="no"></iframe>
-              </div>
-              <script>
-                var waitlistButton = document.getElementById('waitlist-button');
-                waitlistButton.addEventListener('click', function () {
-                  var substackIFrameContainer = document.getElementById('substack-iframe-container');
-                  substackIFrameContainer.style.height = '320px';
-                });
-              </script>
+              <a href="https://app.decisive.team/decide">
+                <div id="decide-button" style="width: 300px;" class="center btn-large waves-effect waves-light black">Decide</div>
+              </a>
             </div>
           </div>
           <div class="divider"></div>
