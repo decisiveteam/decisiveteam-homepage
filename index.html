@@ -53,9 +53,12 @@
     .source-code-pro-font {
       font-family: 'Source Code Pro', monospace;
     }
+    #logo-container, #logo-container img, #logo-container svg {
+      display: inline-block;
+      width: 265px;
+      height: 265px;
+    }
   </style>
-
-
 </head>
 
 
@@ -67,8 +70,11 @@
           <div class="container" style="margin-top:10vh; min-height:100vh">
             <br>
             <div id="rag-title" class="row center">
-              <img src="logo.svg" style="width:240px"/>
-              <h1 style="overflow: hidden; font-size: 4em; margin-bottom: 0;" class="header center black-text source-code-pro-font">
+              <div id="logo-container">
+                <img src="logo.svg"/>
+              </div>
+              <script src="logo-gen.js"></script>
+              <h1 style="overflow: hidden; font-size: 4em; margin-bottom: 0; margin-top: 0;" class="header center black-text source-code-pro-font">
                 Decisive Team
               </h1>
               <h5 class="header col s12 light"><strong>fast</strong> group decision-making</h5>
