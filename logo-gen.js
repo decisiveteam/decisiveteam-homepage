@@ -127,10 +127,11 @@ if (typeof document !== 'undefined') {
       countdown(i - increment, duration, increment)
     }, duration)
   }
-  renderLogo(6, container)
-  setTimeout(() => {
-    countdown(6, 100)
-  }, 1000)
+  renderLogo(3, container)
+  // renderLogo(6, container)
+  // setTimeout(() => {
+  //   countdown(6, 100)
+  // }, 1000)
 
   container.addEventListener('click', () => {
     if (currentPointCount < 9) {
